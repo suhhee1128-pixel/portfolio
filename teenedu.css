@@ -1,0 +1,485 @@
+/* Teenedu Project Page Styles */
+
+.teenedu-page {
+    background-color: #ffffff;
+    min-height: 100vh;
+    font-family: 'Pretendard', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation */
+.teenedu-nav {
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.back-link {
+    color: #636363;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 340px;
+    transition: color 0.3s ease;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.back-link:hover {
+    color: #000;
+}
+
+/* Container */
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 340px;
+}
+
+/* Header Section */
+.teenedu-header {
+    background-color: rgba(217, 217, 217, 0.3);
+    padding: 165px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1662px;
+    margin: 0 auto;
+    padding: 0 129px;
+}
+
+.project-label {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.main-question {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 1.1;
+    color: #000;
+    margin: 0;
+}
+
+/* Intro Section */
+.teenedu-intro {
+    padding: 80px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.intro-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 1;
+    color: #000;
+    margin: 0;
+}
+
+.intro-details {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+}
+
+.intro-subtitle {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1;
+    color: #000;
+    margin: 0;
+}
+
+.intro-icons {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.intro-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.intro-icon:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.intro-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-yellow {
+    background-color: #FFB84D;
+    box-shadow: 0px 4px 8px rgba(255, 184, 77, 0.3);
+}
+
+.icon-pink {
+    background-color: #FF6B9D;
+    box-shadow: 0px 4px 8px rgba(255, 107, 157, 0.3);
+}
+
+.icon-blue {
+    background-color: #4285F4;
+    box-shadow: 0px 4px 8px rgba(66, 133, 244, 0.3);
+}
+
+.icon-green {
+    background-color: #66D9A5;
+    box-shadow: 0px 4px 8px rgba(102, 217, 165, 0.3);
+}
+
+/* Problem Discovery Section */
+.problem-discovery {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.problem-discovery .container {
+    padding: 0 340px;
+}
+
+.section-header {
+    margin-bottom: 37px;
+}
+
+.section-category {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #00b89d;
+    margin-bottom: 2px;
+}
+
+.section-title {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.4;
+    letter-spacing: -0.32px;
+    color: #000;
+    margin: 0;
+    max-width: 1020px;
+}
+
+/* Problems Layout */
+.problems-layout {
+    position: relative;
+    width: 1240px;
+    height: 990px;
+}
+
+.problem-card {
+    position: absolute;
+    background-color: rgba(0, 184, 157, 0.02);
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Position each card exactly as in Figma */
+.problem-card:nth-child(1) {
+    top: 0;
+    left: 3px;
+    width: 607px;
+    height: 221px;
+}
+
+.problem-card:nth-child(2) {
+    top: 0;
+    left: 630px;
+    width: 610px;
+    height: 221px;
+}
+
+.problem-card:nth-child(3) {
+    top: 239px;
+    left: 3px;
+    width: 607px;
+    height: 222px;
+}
+
+.problem-card:nth-child(4) {
+    top: 239px;
+    left: 630px;
+    width: 610px;
+    height: 222px;
+}
+
+.problem-card:nth-child(5) {
+    top: 479px;
+    left: 0;
+    width: 1240px;
+    height: 158px;
+}
+
+.problem-card:nth-child(6) {
+    top: 655px;
+    left: 0;
+    width: 1240px;
+    height: 335px;
+}
+
+.problem-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.problem-number {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+    flex-shrink: 0;
+}
+
+.problem-title {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00b89d;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.problem-description {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    margin: 0;
+    width: 100%;
+}
+
+.problem-description strong {
+    font-weight: 600;
+}
+
+/* Knowledge Gap Card Special Layout */
+.problem-card.knowledge-gap .problem-content {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.problem-text {
+    flex: 1;
+    max-width: 487px;
+}
+
+.problem-image {
+    position: relative;
+    width: 466px;
+    height: 253px;
+    flex-shrink: 0;
+}
+
+.problem-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.source-link {
+    position: absolute;
+    bottom: -15px;
+    left: 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #000;
+    text-decoration: underline;
+    text-underline-position: from-font;
+}
+
+/* Footer */
+.teenedu-footer {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-title {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.footer-subtitle {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #636363;
+    margin: 0 0 40px 0;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 184, 157, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 1600px) {
+    .back-link {
+        margin-left: 20px;
+    }
+    
+    .container {
+        padding: 0 20px;
+    }
+    
+    .problem-discovery .container {
+        padding: 0 20px;
+    }
+    
+    .header-content {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-question {
+        font-size: 64px;
+    }
+    
+    .intro-title {
+        font-size: 64px;
+    }
+    
+    .intro-subtitle {
+        font-size: 24px;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .problems-layout {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .problem-card {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    .problem-card.knowledge-gap .problem-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .problem-image {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-question {
+        font-size: 48px;
+    }
+    
+    .intro-title {
+        font-size: 48px;
+    }
+    
+    .intro-subtitle {
+        font-size: 20px;
+    }
+    
+    .intro-icons {
+        gap: 12px;
+    }
+    
+    .intro-icon {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .intro-icon img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .section-title {
+        font-size: 24px;
+    }
+    
+    .footer-title {
+        font-size: 48px;
+    }
+    
+    .footer-subtitle {
+        font-size: 18px;
+    }
+}
